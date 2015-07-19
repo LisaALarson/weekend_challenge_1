@@ -1,0 +1,12 @@
+.superButton {
+	width  : 50px;
+	height : 15px;
+}
+
+.selected {
+	background-color: #FF0000;
+}
+
+.unselected {
+	background-color: #666666;
+}
