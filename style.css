@@ -1,12 +1,51 @@
-.superButton {
-	width  : 50px;
-	height : 15px;
+#container{
+	width: 800px;
+	margin: 40px auto 60px;
+}
+.jumbotron {
+	background-image: url('https://www.htgmanager.org/common/images/html_background.jpg');
+	padding: 10px;
+	margin-bottom: 10px;
 }
 
-.selected {
-	background-color: #FF0000;
+
+body{
+	background-color: #3F5D7D;
+}
+#employeeInfoForm {
+	float: left;
+	margin-right: 100px;
+}
+h1{
+	color: #2F343A;
+	text-align: center;
+}
+h3{
+	margin: 10px 0 0 0;
+	color: #CCCCCC;
 }
 
-.unselected {
-	background-color: #666666;
+p {
+	color: #3F5D7D;
+	margin: 0 100px 0 300px;
 }
+#removeButton{
+	float: right;
+	margin: 0 0 0 0;
+}
+.review5 p{
+	background-color: #CCFF99;
+}
+.review4 p{
+	background-color: #FFFF66;
+}
+.review3 p{
+	background-color: #FFCC99;
+}
+.review2 p{
+	background-color: #FF9966;
+}
+.review1 p{
+	background-color: #FF5050;
+}
+

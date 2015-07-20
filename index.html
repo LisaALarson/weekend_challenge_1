@@ -10,23 +10,52 @@
 	</head>
 
 	<body>
-		<form id="someForm">
-			<p>First Name:</p>
-				<input type="text" name="firstname">
-			<p>Last Name:</p>
-				<input type="text" name="lastname">
-			<p>Employee Number:</p>
-				<input type="text" name="employeenumber">
-			<p>Title:</p>
-				<input type="text" name="title">
-			<p>Last Review Score:</p>
-				<input type="text" name="lastreviewscore">
-			<p>Salary:</p>
-				<input type="text" name="salary">
-			<input type="submit" value="Submit Button">
+
+	<div id="container">
+
+		<div class="jumbotron">
+			<h1>Employee Information Input Form<h1>
+		</div>
+
+
+		<form id="employeeInfoForm">
+
+			<!-- Live version -->
+			<h3>First Name:</h3>
+				<input id="firstName" type="text" name="firstName" placeholder="First Name">
+			<h3>Last Name:</h3>
+				<input id="lastName" type="text" name="lastName" placeholder="Last Name">
+			<h3>Employee Number:</h3>
+				<input id="employeeNumber" type="text" name="employeeNumber" placeholder="Employee Number">
+			<h3>Title:</h3>
+				<input id="employeeTitle" type="text" name="employeeTitle" placeholder="Job Title">
+			<h3>Last Review Score:</h3>
+				<input id="lastReviewScore" type="text" name="lastReviewScore" placeholder="Review Score 1-5">
+			<h3>Salary:</h3>
+				<input id="salary" type="text" name="salary" placeholder="Salary (ex: 55000)">
+
+
+			<!-- Debug version -->
+			<!-- <h3>First Name:</h3>
+				<input id="firstName" type="text" name="firstName" value="James">
+			<h3>Last Name:</h3>
+				<input id="lastName" type="text" name="lastName" value="Bond">
+			<h3>Employee Number:</h3>
+				<input id="employeeNumber" type="text" name="employeeNumber" value="007">
+			<h3>Title:</h3>
+				<input id="employeeTitle" type="text" name="employeeTitle" value="SuperSpy">
+			<h3>Last Review Score:</h3>
+				<input id="lastReviewScore" type="text" name="lastReviewScore" value="5">
+			<h3>Salary:</h3>
+				<input id="salary" type="text" name="salary" value="$900"> -->	
+
+			<button id="submitButton" type="submit" value="submit">Submit</button>
+
 		</form>
 
-		<!-- <div class='superButton unselected'></div> -->
+		<div id="prependEmployeesAbove"></div>
+
+	</div>
 	</body>
 </html>
 
