@@ -6,6 +6,10 @@
 	background-image: url('https://www.htgmanager.org/common/images/html_background.jpg');
 	padding: 10px;
 	margin-bottom: 10px;
+	position: relative;
+	width:100%;
+	background-size: cover;
+	overflow: hidden;
 }
 
 
@@ -48,4 +52,6 @@ p {
 .review1 p{
 	background-color: #FF5050;
 }
-
+.dropdown {
+	position: relative;
+}

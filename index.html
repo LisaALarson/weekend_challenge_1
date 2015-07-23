@@ -1,21 +1,32 @@
 <!doctype html>
 <html>
 	<head>
+		<!-- <meta charset="UTF-8"> -->
+
 		<title>Weekend Challenge #1</title>
+    	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+    	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
 		<link rel="stylesheet" href="style.css">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
 		<script type="text/javascript" src="app.js"></script>
+
 	</head>
 
 	<body>
 
+	<!-- To make the jumbotron header go across the whole screen you need to pull it out of the container and give it its own class="container" -->
+	<div class="jumbotron" class='col-md-12'>
+		<div class="container">
+		<h1>Employee Information Input Form<h1>
+		</div>
+	</div>
+
 	<div id="container">
 
-		<div class="jumbotron">
-			<h1>Employee Information Input Form<h1>
-		</div>
+		
 
 
 		<form id="employeeInfoForm">
@@ -49,8 +60,12 @@
 			<h3>Salary:</h3>
 				<input id="salary" type="text" name="salary" value="$900"> -->	
 
-			<button id="submitButton" type="submit" value="submit">Submit</button>
-			<button id="randomButton" type="random" value="random">Randomize</button>
+			<br>
+			<br>
+			<button class="btn btn-default" id="submitButton" type="submit" value="submit"><span class="glyphicon glyphicon-thumbs-up"></span> Submit</button>
+			<br>
+			<br>
+			<button class="btn btn-default" id="randomButton" type="random" value="random"><span class="glyphicon glyphicon-user"></span> Randomize</button>
 		</form>
 
 
